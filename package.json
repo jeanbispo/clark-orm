@@ -43,8 +43,7 @@
     "eslint-plugin-standard": "5.0.0",
     "prettier": "3.0.3",
     "tsup": "^8.2.3",
-    "typescript": "5.5.4",
-    "@types/luxon": "^3.6.2"
+    "typescript": "5.5.4"
   },
   "dependencies": {
     "@adonisjs/application": "^8.3.1",

@@ -53,6 +53,7 @@
     "@adonisjs/config": "^5.0.3",
     "@adonisjs/core": "^6.19.0",
     "@adonisjs/fold": "^10.2.0",
+    "@types/luxon": "^3.6.2",
     "luxon": "^3.6.1"
   },
   "packageManager": "pnpm@9.12.3"

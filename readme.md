@@ -17,7 +17,15 @@ ClarkORM is built on top of Lucid ORM and Lucid ORM is built on top of [knex](ht
 ## Installation
 
 ```sh
-npm install clark-orm @adonisjs/lucid luxon
+npm install clark-orm
+```
+
+### Adjust your tsconfig.json 
+Add it to your `tsconfig.json`
+```json
+"emitDecoratorMetadata": true,
+"experimentalDecorators": true,
+"strictPropertyInitialization": false
 ```
 
 ## Usage
@@ -72,10 +80,3 @@ You can learn more about the models [here](https://docs.adonisjs.com/guides/mode
 To use ClarkORM you need to know at least a little about [knex](http://knexjs.org/) and [Lucid](https://docs.adonisjs.com/guides/database/introduction)
 
 Do you like to learn with examples? We have one [here](https://github.com/gideaoms/clark-orm/blob/main/example.md)
-
-Remember to add it to your `tsconfig.json`
-```json
-"emitDecoratorMetadata": true,
-"experimentalDecorators": true,
-"strictPropertyInitialization": false
-```

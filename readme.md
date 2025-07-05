@@ -19,6 +19,9 @@ ClarkORM is built on top of Lucid ORM and Lucid ORM is built on top of [knex](ht
 ```sh
 npm install clark-orm
 ```
+```sh
+npm --save-dev @types/luxon
+```
 
 ### Adjust your tsconfig.json 
 Add it to your `tsconfig.json`
